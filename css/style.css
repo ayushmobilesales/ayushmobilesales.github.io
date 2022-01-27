@@ -28,20 +28,23 @@
      transition: ease all 0.5s;
 }
 
-html {
+html {}
      scroll-behavior: smooth;
 }
 
 body {
      color: #666666;
      font-size: 14px;
-      font-family: poppins;
+     font-family: poppins;
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
 }
 
+
 a {
+     background-color: black;
+     border-radius: 30px;
      color: #1f1f1f;
      text-decoration: none !important;
      outline: none !important;
@@ -441,12 +444,14 @@ a.readmore_bt {
      background-repeat: no-repeat;
 background-size: 100% 100%;
 background-position: center center;
+
 }
 
 .logo {
      float: left;
      position: relative;
      padding-top: 11px;
+
 }
 
 nav.main-menu {
@@ -478,12 +483,11 @@ ul.top_icon li a {
 
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
-     color: #ffff;
+     background-color: white;
+     color: red;
 }
 
-.menu-area-main li.active a {
-     color: #fff;
-}
+
 
 .right_cart_section {
      float: right;
@@ -1649,7 +1653,7 @@ border-radius: 30px;
 }
 
 .banner-main .carousel-caption .buynow:hover {
-     border: #ff0000 solid 1px;
+     border: #ff0000 solid 5px;
      background: #ff0000;
      color: #fff;
 }
@@ -1955,6 +1959,7 @@ margin-top: 40px
 } 
 
 .send {
+     border-radius: 50px ;
      font-family: poppins;
     max-width: 212px;
     margin: 0 auto;
@@ -2151,6 +2156,7 @@ ul.location_icon span {
 .cross_layout {
     transform: skew(-25deg);
 }
+
 
 .cross_inner {
     transform: skew(25deg);
