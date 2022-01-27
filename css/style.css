@@ -438,6 +438,7 @@ a.readmore_bt {
 /*--------------------------------------------------------------------- header area ---------------------------------------------------------------------*/
 
 .header {
+     
      font-family: poppins;
      padding: 10px 0px;
      background: url(../images/hea.png);
@@ -450,16 +451,19 @@ background-position: center center;
 .logo {
      float: left;
      position: relative;
-     padding-top: 11px;
+     border: black 4px solid;
+     border-radius: 10%;
 
 }
 
 nav.main-menu {
+     
      float: right;
      margin-left: 0;
 }
 
 ul.top_icon {
+     background-color: grey;
      float: right;
      padding-top: 17px;
 }
@@ -474,6 +478,7 @@ ul.top_icon li {
 }
 
 ul.top_icon li:last-child {
+    
      padding-right: 0px;
 }
 
@@ -1580,7 +1585,7 @@ position: absolute;
 margin-bottom: -111px;
 z-index: 999;
 background: #ff0000;
-width: 175%;
+width: 173.5%;
 position: relative;}
 .location_icon_bottum::before {
      position: absolute;
