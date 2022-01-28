@@ -509,7 +509,11 @@ ul.top_icon li a {
 .right_cart_section .cart_icons {
      padding: 18px 0 0;
 }
-.last {padding-right: 0px;}
+.last {padding-right: 0px;      
+       
+}
+
+
 .main-menu ul>li nth:child(7) a {
      padding-right: 0px;
 }
@@ -1076,7 +1080,7 @@ ul.top_icon li a {
 }
 
 .main-menu ul>li a {
-     line-height: 20px;
+     line-height: 10px;
      font-size: 16px;
      display: block;
      font-weight: 500;
@@ -1084,10 +1088,10 @@ ul.top_icon li a {
      padding: 22px 30px;
 }
 
-
-}
+.
 .main-menu ul li:last-child a {
      padding-right: 0;
+     border-radius: 50px;
 }
 .sub-down li {
      background: #ffffff;
